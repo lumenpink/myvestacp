@@ -1,4 +1,4 @@
-FROM debian:10.4
+FROM debian:buster-20210311
 LABEL maintainer="Lohn <j@lo.hn>"
 ENV DEBIAN_FRONTEND=noninteractive \
     TERM=xterm
